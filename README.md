@@ -80,8 +80,10 @@ fb1 huelfo 19
 
 (yes i know that is far from all of the parameters. I'll be frank, adding full midi support for every parameter would be pretty boring and time consuming and adds very little to my personal usage of this software! if you want more midi ccs mapped to parameters you'll basically have to pay me because its a lot of dang work and i don't have any midi controllers with 200 knobs to use with this set up so)
 
-## Build updates added Peter Haughie
+## Build updates added by Peter Haughie
 
-We all now that Xcode is a bloated waste of harddrive space. By utilising VSCode instead we can reduce the size of the project, the speed of building, and ease of deployment.
+We all know that Xcode is a bloated waste of hard-drive space. By utilising VSCode instead we can reduce the size of the project, the speed of building, and ease of deployment.
 
-You will need the ofxNDI, ofxMidi, and ofxImGui addon libraries installed to be able to make it build. If like me you have several input devices identifying as webcams then you will need to alter the cam1 and cam2 device IDs to reflect the actual device you want to capture - this should probably be a keypress.
+Follow the instructions for [setting up VSCode](https://openframeworks.cc/setup/vscode/).
+
+You will need the [ofxNDI](http://github.com/nariakiiwatani/ofxNDI), [ofxMidi](http://github.com/danomatika/ofxMidi), and [ofxImGui](http://github.com/jvcleave/ofxImGui) addon libraries installed to be able to make it build. If like me you have several input devices identifying as webcams then you will need to alter the cam1 and cam2 device IDs to reflect the actual device you want to capture - this should probably be a keypress.
