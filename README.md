@@ -10,8 +10,6 @@ https://andreijaycreativecoding.com/VIDEO-WAAAVES-GETTING-STARTED
 
 and follow the instructions to get up and running!
 
-![Image description](https://github.com/ex-zee-ex/VIDEO_WAAAVES_1_5/blob/master/vlcsnap-2019-08-10-22h57m07s147.png)
-
 https://vimeo.com/andreijay for many examples of this program in action.
 
 midi cc list for video waaaves!
@@ -82,8 +80,8 @@ fb1 huelfo 19
 
 ## Build updates added by Peter Haughie
 
-We all know that Xcode is a bloated waste of hard-drive space. By utilising VSCode instead we can reduce the size of the project, the speed of building, and ease of deployment.
+Xcode is a bloated waste of hard-drive space. By utilising VSCode instead we can reduce the size of the project, the speed of building, and ease of deployment.
 
 Follow the instructions for [setting up VSCode](https://openframeworks.cc/setup/vscode/).
 
-You will need the [ofxNDI](http://github.com/nariakiiwatani/ofxNDI), [ofxMidi](http://github.com/danomatika/ofxMidi), and [ofxImGui](http://github.com/jvcleave/ofxImGui) addon libraries installed to be able to make it build. If like me you have several input devices identifying as webcams then you will need to alter the cam1 and cam2 device IDs to reflect the actual device you want to capture - this should probably be a keypress.
+You will need the [ofxMidi](http://github.com/danomatika/ofxMidi), and [ofxImGui](http://github.com/jvcleave/ofxImGui) (remember to switch to the developer branch) addon libraries installed to be able to make it build. If like me you have several input devices identifying as webcams then you will need to alter the cam1 and cam2 with 0 and 9
